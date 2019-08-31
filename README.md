@@ -2,7 +2,7 @@
 This respository contains the exercises used in the DC011612 Stack Buffer Overflow Workshop.
 Accompanying slides can be found here: https://docs.google.com/presentation/d/10Ngu_jSHXmYqT1i163hIjhzeTlxP7rW0xn9wLoPq1ng/edit?usp=sharing
 
-The challenges of this workshop have been designed to showcase the exploitation techniques and mitigations used on Linux. Because the goal is not to address the finding of vulnerabilities, the bugs are always very obvious. Additonally,  
+The challenges of this workshop have been designed to showcase the exploitation techniques and mitigations used on Linux. Because the goal is not to address the finding of vulnerabilities, the bugs are always very obvious. For each exercise, the goal is to run the challenge binary as a low-privileged user and attain code execution as root. To enable this, the challenge binaries are configured as setuid root by one of the setup scripts.
 
 # Installation
 ## Virtual machine image
@@ -23,8 +23,6 @@ The exercises of the workshop have been organised in folders. The following prog
 
 * Basic
 * TODO
-
-For each exercise, the goal is to run the challenge binary as a low-privileged user and attain code execution as root. This is possible because the challenge binaries are configured as setuid root by one of the setup scripts.
 
 For some binaries, ASLR (an exploitation) should be enabled. A script has been included to enable/disable this system-wide setting on Linux. Please remember to re-enable ASLR after you've finished the challenges.
 
