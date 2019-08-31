@@ -12,7 +12,8 @@ rabin2 -I <binary>
 ```
 Change to low-privileged user:
 ```bash
-su <user>```
+su <user>
+```
 
 # GDB / Pwndbg
 | Action | Command |
