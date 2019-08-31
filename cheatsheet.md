@@ -11,7 +11,7 @@ Show binary protections:
 rabin2 -I <binary>
 ```
 Change to low-privileged user:
-``bash
+```bash
 su <user>```
 
 # GDB / Pwndbg
