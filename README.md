@@ -12,7 +12,7 @@ This workshop has been developed to work on the Kali 2019.2 virtual machine imag
 The following commands will download this repository on your machine, set-up a low-privileged user and the file permissions, and install some extra tools:
 ``` bash
 cd /opt
-git clone https://github.com/DavidDeLille/stack-overflow-workshop
+git clone https://github.com/DavidDeLille/stack-buffer-overflow-workshop
 cd stack-overflow-workshop
 ./setup-user-and-perms.sh
 ./tools.sh
