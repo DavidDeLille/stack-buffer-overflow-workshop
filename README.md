@@ -13,7 +13,7 @@ The following commands will download this repository on your machine, set-up a l
 ``` bash
 cd /opt
 git clone https://github.com/DavidDeLille/stack-buffer-overflow-workshop
-cd stack-overflow-workshop
+cd stack-buffer-overflow-workshop
 ./setup-user-and-perms.sh
 ./tools.sh
 ```
