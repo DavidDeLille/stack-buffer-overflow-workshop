@@ -22,7 +22,7 @@ cd stack-overflow-workshop
 The exercises of the workshop have been organised in folders. The following progression is recommended if you want to complete the challenges in oder of assending difficulty:
 
 * Basic
-* ...
+* TODO
 
 For each exercise, the goal is to run the challenge binary as a low-privileged user and attain code execution as root. This is possible because the challenge binaries are configured as setuid root by one of the setup scripts.
 
