@@ -7,7 +7,12 @@ Open a file in Sublime Text:
 subl <file>
 ```
 Show binary protections:
-```rabin2 -I <binary>```
+```bash
+rabin2 -I <binary>
+```
+Change to low-privileged user:
+``bash
+su <user>```
 
 # GDB / Pwndbg
 | Action | Command |
