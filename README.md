@@ -1,6 +1,6 @@
 # Stack Overflow Workshop
 This respository contains the exercises used in the DC011612 Stack Overflow Workshop.
-Slides can be found here: https://docs.google.com/presentation/d/10Ngu_jSHXmYqT1i163hIjhzeTlxP7rW0xn9wLoPq1ng/edit?usp=sharing
+Accompanying Slides can be found here: https://docs.google.com/presentation/d/10Ngu_jSHXmYqT1i163hIjhzeTlxP7rW0xn9wLoPq1ng/edit?usp=sharing
 
 The challenges of this workshop have been designed to showcase the exploitation techniques and mitigations used on Linux. Because the goal is not to address the finding of vulnerabilities, the bugs are always very obvious. Additonally,  
 
