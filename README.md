@@ -19,19 +19,23 @@ cd stack-buffer-overflow-workshop
 ```
 
 # Usage
-The exercises of the workshop have been organised in folders. The following progression is recommended if you want to complete the challenges in oder of assending difficulty:
+The exercises of the workshop have been organised in folders. The following progression is recommended if you want to complete the challenges in order of assending difficulty:
 
 * Basic
 * TODO
 
-For some binaries, ASLR (an exploitation) should be enabled. A script has been included to enable/disable this system-wide setting on Linux. Please remember to re-enable ASLR after you've finished the challenges.
-
-``` bash
-cd /opt/stack-overflow-workshop/
-./toggle-ASLR.sh
-```
-
 Don't forget to check out the cheatsheet which contains a bunch of useful commands.
+
+# Exploit mitigations
+## ASLR
+ASLR is an exploit mitigation that randomises the addresses used during execution. For most challenge binaries in this workshop, it should be disabled. The following command disables ASLR temporarily on a system-wide basis:
+``` bash
+echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
+```
+Re-enable it like so:
+```bash
+echo 2 | sudo tee /proc/sys/kernel/randomize_va_space
+```
 
 # Prerequisite knowledge
 TODO
