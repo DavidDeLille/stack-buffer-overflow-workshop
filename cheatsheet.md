@@ -28,3 +28,9 @@ su <user>
 | Execute 1 more instruction (step over)| ```ni 1``` |
 | Examine the top 32 byte words of the stack as hexadecimals | ```x/32xw $esp``` |
 | Inspect registers | ```ir``` |
+
+## Feed python command output to stdin
+```
+r < <(python -c "print '\x41'*32")
+r <<< $(python -c "print '\x41'*32")
+```
