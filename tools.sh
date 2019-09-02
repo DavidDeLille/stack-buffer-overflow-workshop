@@ -18,3 +18,6 @@ cd pwndbg
 sudo apt-get install python2.7 python-pip python-dev git libssl-dev libffi-dev build-essential -y
 pip2 install --upgrade pip
 pip2 install --upgrade pwntools
+
+# Ropper
+pip3 install ropper
