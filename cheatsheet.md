@@ -26,7 +26,7 @@ su <user>
 | Continue executing until next breakpoint| ```c``` |
 | Execute 1 more instruction (step into)| ```si 1``` |
 | Execute 1 more instruction (step over)| ```ni 1``` |
-| Examine the top 32 byte words of the stack as hexadecimals | ```x/32xw $esp``` |
+| Examine the top 32-byte words of the stack as hexadecimals | ```x/32xw $esp``` |
 | Inspect registers | ```ir``` |
 
 ## Feed python command output to stdin
