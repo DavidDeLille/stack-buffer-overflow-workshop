@@ -1,3 +1,6 @@
+# 32-bit support
+apt-get install gcc-multilib
+
 # Pwndbg (https://github.com/pwndbg/pwndbg)
 cd /opt
 git clone https://github.com/pwndbg/pwndbg
