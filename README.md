@@ -37,6 +37,12 @@ Re-enable it like so:
 echo 2 | sudo tee /proc/sys/kernel/randomize_va_space
 ```
 
+# NX
+This exploit mitigation prevents execution of instructions found in writeable memory segments, effectively making shellcode useless. The protection is added at compile time; adding the ```-z execstack``` flag to your gcc command will disable it:
+```bash
+gcc -z execstack -m32 -o <challenge> <challenge.c>
+```
+
 # Prerequisite knowledge
 TODO
 
