@@ -28,7 +28,7 @@ Don't forget to check out the cheatsheet which contains a bunch of useful comman
 
 # Exploit mitigations
 ## ASLR
-ASLR is an exploit mitigation that randomises the addresses used during execution. For most challenge binaries in this workshop, it should be disabled. The following command disables ASLR temporarily on a system-wide basis:
+ASLR is an exploit mitigation that randomises the addresses used during execution. For most challenge binaries in this workshop, it should be disabled. The following command disables ASLR temporarily on a system-wide basis (until the next reboot):
 ``` bash
 echo 0 | sudo tee /proc/sys/kernel/randomize_va_space
 ```
