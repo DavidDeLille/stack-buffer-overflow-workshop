@@ -14,6 +14,10 @@ Change to low-privileged user:
 ```bash
 su <user>
 ```
+Enable core dumps:
+```bash
+ulimit -c unlimited
+```
 
 # GDB / Pwndbg
 | Action | Command |
